@@ -12,3 +12,4 @@ QQ：75730754
 	$npm install react-native-tab-navigator --save
 
 ###本项目支持iOS&&Android
+<img src="https://github.com/Demon404/KZHApp/blob/master/kzhapp.gif?raw=true" alt="GitHub" title="GitHub,Social Coding"  />
