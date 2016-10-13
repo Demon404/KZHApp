@@ -1,5 +1,4 @@
-
-GitHub博客地址:http://www.cnblogs.com/demon404
+ps:看知乎接口已经停止维护，所以请大家查询别的接口替换！
 
 QQ：75730754
 
