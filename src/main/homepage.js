@@ -17,7 +17,7 @@ var GET_URL = 'http://api.kanzhihu.com/getposts';
 export default class HomePage extends Component {
   //初始化的时候拉数据
   componentDidMount(){
-    this.fetchData();
+    // this.fetchData();
   }
 
   fetchData(){

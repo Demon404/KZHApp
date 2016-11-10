@@ -20,31 +20,31 @@ export default class Search extends Component {
   searchUser(){
     console.log(this.state.text);
     if (this.state.text !== '') {
-      this.props.navigator.push({
-        component:SearchDetail,
-        params:{
-          searchUrl:'http://api.kanzhihu.com/searchuser/'+this.state.text
-        }
-      })
+      // this.props.navigator.push({
+      //   component:SearchDetail,
+      //   params:{
+      //     searchUrl:'http://api.kanzhihu.com/searchuser/'+this.state.text
+      //   }
+      // })
     }else {
 
     }
   }
   searchAgree(){
-    this.props.navigator.push({
-      component:SearchDetail,
-      params:{
-        searchUrl:'http://api.kanzhihu.com/topuser/agree/1'
-      }
-    })
+    // this.props.navigator.push({
+    //   component:SearchDetail,
+    //   params:{
+    //     searchUrl:'http://api.kanzhihu.com/topuser/agree/1'
+    //   }
+    // })
   }
   searchCommon(){
-    this.props.navigator.push({
-      component:SearchDetail,
-      params:{
-        searchUrl:'http://api.kanzhihu.com/topuser/follower/1',
-      }
-    })
+    // this.props.navigator.push({
+    //   component:SearchDetail,
+    //   params:{
+    //     searchUrl:'http://api.kanzhihu.com/topuser/follower/1',
+    //   }
+    // })
   }
   render() {
     return (

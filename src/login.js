@@ -23,6 +23,13 @@ let Width = Dimensions.get('window').width;
 let Height = Dimensions.get('window').height;
 
 export default class LogInView extends Component {
+  constructor(props) {
+	  super(props);
+	  this.setstate = {
+	  	username:"",
+	  	userpwd: "",
+	  };
+  }
   _onPage(){
     this.props.navigator.resetTo({
       component:TabbarView,
